@@ -1,1 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hye Jung Min - CV</title>
+  <style>
 
+      .badge {
+    background-color: #DA4167;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75em;
+   margin-left: 6px;
+      }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      max-width: 800px;
+      margin: auto;
+      scroll-behavior: smooth;
+    }
+
+    h1 { color: #2c3e50; }
+    h2 { color: #34495e; margin-top: 40px; }
+    p { line-height: 1.6; }
+    ul { line-height: 1.6; padding-left: 20px; color: #444; }
+
+    .intro-section {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #f2f6fa;
+      padding: 40px 20px;
+      margin-bottom: 40px;
+    }
+    .intro-photo {
+      flex: 1 1 200px;
+      text-align: center;
+    }
+    .intro-photo img {
+      border-radius: 100%;
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+    }
+    .intro-info {
+      flex: 2 1 400px;
+      padding-left: 30px;
+    }
+
+    .split-section {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+    .split-block {
+      flex: 1 1 45%;
+    }
+
+    .skills-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .skills-block {
+      width: 45%;
+    }
+
+    .skill {
+      margin-bottom: 20px;
+    }
+
+    .skill-label {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .skill-sub {
+      font-weight: normal;
+      font-size: 0.9em;
+      color: #444;
+    }
+
+    .skill-bar {
+      background-color: #eee;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 12px;
+    }
+
+    .skill-fill-blue {
+      background-color: #3dbfc2;
+      height: 100%;
+    }
+
+    .skill-fill-yellow {
+      background-color: #f4b400;
+      height: 100%;
+    }
+
+    .timeline {
+      border-left: 3px solid #e0e0e0;
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 40px;
+    }
+
+    .timeline-item::before {
+      content: "🎓";
+      position: absolute;
+      left: -34px;
+      top: 0;
+      font-size: 18px;
+      background: white;
+    }
+
+    .position-title {
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-bottom: 3px;
+    }
+
+    .institution {
+      color: #666;
+      margin-bottom: 2px;
+    }
+
+    .period {
+      font-size: 0.9em;
+      color: #999;
+      margin-bottom: 10px;
+    }
+
+    .description-list {
+      list-style: disc;
+      padding-left: 20px;
+      color: #444;
+    }
+
+    .news-section {
+      margin-top: 60px;
+    }
+
+    .news-section h2 {
+      text-align: center;
+      color: #1c1c1c;
+    }
+
+    .news-item {
+      display: flex;
+      margin-bottom: 40px;
+      align-items: flex-start;
+    }
+
+    .news-date {
+      width: 120px;
+      color: #999;
+      font-size: 0.95em;
+      text-align: right;
+      padding-right: 20px;
+    }
+
+    .news-content {
+      flex: 1;
+    }
+
+    .news-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 1.05em;
+    }
+
+    .news-description {
+      color: #555;
+      margin-bottom: 6px;
+    }
+
+    .news-readmore a {
+      color: #4C86A8;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 인트로 섹션 -->
+  <div class="intro-section">
+    <div class="intro-photo">
+      <img src="5426C2A9-C8D5-4465-9E66-677505AD13E0_4_5005_c.jpeg" alt="Profile Photo">
+    </div>
+    <div class="intro-info">
+      <h1 id="home">Hye Jung Min</h1>
+      <p>
+        <strong>Email:</strong> gpwjd6773@gmail.com<br>
+        <strong>Phone:</strong> <a href="tel:01039219131">010-3921-9131</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Interests & Projects Split -->
+<div class="split-section">
+  <div class="split-block">
+    <h2 id="interests">Interests</h2>
+    <ul>
+      <li><strong>Transcriptome-based biomarker discovery</strong></li>
+      <li><strong>Machine Learning / AI based Biology</strong></li>
+      <li><strong>Target Discovery</strong></li>
+    </ul>
+  </div>
+  <div class="split-block">
+    <h2 id="projects">Projects</h2>
+    <ul>
+      <li>
+        <a href="projects/project1.html">Comparative analysis of RNA-Seq preprocessing techniques for robust AI-powered disease prediction models</a>
+      </li>
+      <li>
+        <span>Comparing DEGs and AI-selected Signature Genes</span>
+        <span class="badge">Ongoing</span>
+      </li>      
+    </ul>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
+  <!-- Education -->
+  <h2 id="education">Education</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="position-title">M.S.</div>
+      <div class="institution">SungKyunKwan University</div>
+      <div class="institution">RNA-based Precision Medicine Lab</div>
+      <div class="period">March 2024 – Present</div>
+      <ul class="description-list">
+        <li>Development of Machine Learning / AI Platform</li>
+        <li>Preprocessing-Benchmarking of Transcriptomic ML models</li>
+      </ul>
+    </div>
+    <div class="timeline-item">
+      <div class="position-title">Undergraduate Student</div>
+      <div class="institution">RNA-based Precision Medicine Lab</div>
+      <div class="period">August 2023 – Febuary 2024</div>
+    </div>
+    <div class="timeline-item">
+      <div class="position-title">B.S.</div>
+      <div class="institution">Sookmyung Women's University</div>
+      <div class="period">March 2018 – Febuary 2024</div>
+    </div>
+  </div>
+
+
+  <!-- Skills -->
+  <h2 id="skills">Technical Skills</h2>
+  <div class="skills-container">
+    <div class="skills-block">
+      <h3>Bioinformatic Skills</h3>
+      <div class="skill">
+        <div class="skill-label">
+          <img src="https://www.r-project.org/logo/Rlogo.png" alt="R" width="20" style="vertical-align: middle; margin-right: 6px;">
+          <strong>R</strong><br>
+          <span class="skill-sub">Data Analysis & Visualization</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill-blue" style="width: 100%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-label">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="20" style="vertical-align: middle; margin-right: 6px;">
+          <strong>PYTHON</strong><br>
+          <span class="skill-sub">AI Modeling (ML & DL)</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill-blue" style="width: 75%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-label">
+          <img src="https://img.icons8.com/fluency/48/console.png" alt="Linux" width="20" style="vertical-align: middle; margin-right: 6px;">
+          <strong>LINUX-SERVER</strong><br>
+          <span class="skill-sub">Bioinformatics & Server management</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill-blue" style="width: 50%;"></div></div>
+      </div>
+    </div>
+    <div class="skills-block">
+      <h3>Experimental Skills</h3>
+      <div class="skill">
+        <div class="skill-label">
+          <strong>MOLECULAR BIOLOGY</strong><br>
+          <span class="skill-sub">Western Blot & PCR Experiment</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill-yellow" style="width: 50%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-label">
+          <strong>LIBRARY PREPARATION</strong><br>
+          <span class="skill-sub">RNA-seq Library Preparation</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill-yellow" style="width: 50%;"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent Experience -->
+  <h2 class="news-section" id="news">Recent Experience</h2>
+  <div class="news-item">
+    <div class="news-date">April 28, 2025</div>
+    <div class="news-content">
+      <div class="news-title">Poster presentation on American Association for Cancer Research (AACR 2025) in Chicago</div>
+      <div class="news-description">
+      </div>
+      <div class="news-readmore"><a href="exp_aacr.html">Read more →</a></div>
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Mar 26, 2025</div>
+    <div class="news-content">
+      <div class="news-title">Poster presentation on Department BK21 Conference 2025</div>
+      <div class="news-description">
+      </div>
+      <div class="news-readmore"><a href="exp_genecamp.html">Read more →</a></div>
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Mar 15, 2024</div>
+    <div class="news-content">
+      <div class="news-title">[Publication] DOGpred: A Novel Deep Learning Framework for Accurate Identification of Human O-linked Threonine Glycosylation Sites</div>
+      <div class="news-description">
+      </div>
+      <div class="news-readmore"><a href="exp_DOGpred.html">Read more →</a></div>
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-date">Oct 24, 2024</div>
+    <div class="news-content">
+      <div class="news-title">Poster presentation on Annual Conference of Korean Society for Bioinformatics (BIOINFO 2024) in Gyeonju</div>
+      <div class="news-description">
+      </div>
+      <div class="news-readmore"><a href="exp_bioinfo.html">Read more →</a></div>
+    </div>
+  </div>
+</body>
+</html>
