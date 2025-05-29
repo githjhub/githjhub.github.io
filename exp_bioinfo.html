@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1 - DEGs vs AI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    img {
+      width: auto;
+      max-height: 400px;
+      object-fit: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    p.description {
+      font-size: 0.95em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="bioinfo.JPG" alt="Project Banner">
+
+  <h1>Optimization of Preprocessing Strategy for Developing a Machine Learning-based Disease Diagnosis Model Using Transcriptomics
+</h1>
+
+  <p class="description">
+    Background</p>Current research in the fields of medicine and biology predominantly focuses on utilizing artificial intelligence (AI) for the analysis of patient-specific images, such as CT and MRI scans. However, the utility of the AI has been limited in NGS data, in particular, transcriptome. RNA sequencing is susceptible to biological and technical errors during data generation. The approaches to error correction vary significantly, and the selection of a specific method can yield different outcomes [1] [2], potentially influencing subsequent analyses, suggesting that the clear guidelines using transcriptome data presents challenges in achieving optimal results. In this study, we aim to identify the optimal preprocessing strategies for the development of AI models utilizing transcriptomic data.</p>
+    Methods</p>To this end we employed RNA-sequencing dataset from 25 different cohorts including lung adenocarcinoma, colorectal cancer, diabetes, and other disease with over 6,000 patient data sets. Subsequently, 18 different combinatorial analyses using 6 different normalization methods (Raw, CPMTMM, RLE, UQ, RPKM, TPM) and 3 scaling methods (Raw, Minmax, Z) were systematically applied and the effects of each preprocessing approach were assessed through conventional bioinformatics analysis. Using the over 20,000 transcripts were preprocessed from each combination of normalization and scaling techniques, we developed the disease diagnosis model leveraging 13 machine learning & deep learning algorithms and evaluated the performances to determine the most effective preprocessing strategy.</p>
+    Conclusion</p>Ultimately, optimal preprocessing combinations for each algorithm were identified for developing AI models to develop the best performing model using transcriptome data. Our findings support the further application of AI for disease diagnosis by proposing optimized guidelines to develop the best model using transcriptomics.
+ 
+</body>
+</html>
